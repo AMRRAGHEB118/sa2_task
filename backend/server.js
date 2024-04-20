@@ -18,6 +18,6 @@ app.post('/api/countLetters', (req, res) => {
     res.status(200).json({ message: result });
 });
 
-app.listen(3001, () => {
-    console.log('Server listening on port 3001');
+app.listen(3000, () => {
+    console.log('Server listening on port 3000');
 });

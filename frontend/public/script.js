@@ -3,7 +3,7 @@ const formElm = document.getElementById("form");
 
 formElm.addEventListener("submit", (event) => {
     event.preventDefault();
-    fetch("http://localhost:3001/api/countLetters", {
+    fetch("http://localhost:3000/api/countLetters", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
