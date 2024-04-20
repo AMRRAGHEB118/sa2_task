@@ -10,7 +10,7 @@
     <div class="container">
         <form id="form">
             <label for="paragraph">Paragraph:</label>
-            <input type="text" id="paragraph" name="paragraph">
+            <textarea oninput="hideResult()" name="paragraph" id="paragraph"></textarea>
             <input type="submit" value="Count Letters">
         </form>
         <p id="result"></p>
